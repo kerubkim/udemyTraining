@@ -16,4 +16,4 @@ func showme(numbers []int, secondfunc func(int)) {
 		secondfunc(n)
 	}
 }
-// callbacks = a function that takes a function as a parameter
+// * callbacks = a function that takes a function as a parameter
