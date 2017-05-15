@@ -10,6 +10,7 @@ func main() {
 
 }
 
+// a function that takes two arugments - a slice/array of int and a function with a parameter of int
 func showme(numbers []int, secondfunc func(int)) {
 	for _, n := range numbers {
 		secondfunc(n)
