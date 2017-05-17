@@ -3,7 +3,8 @@ package main
 import "fmt"
 
 func main() {
-	var arr [12]byte // array that holds 12 values of bytes
+
+	var arr [12]byte // array that holds 12 values of bytes (length = 12)
 	for i := 0; i < len(arr); i++ {
 		arr[i] = byte(i) // convert i into bytes
 	}
